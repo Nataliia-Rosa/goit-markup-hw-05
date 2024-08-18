@@ -396,18 +396,22 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 24px;
 }
 .input-foot {
-    background-color: #2e2f42;
     border: 1px solid #fff;
     outline: none;
     border-radius: 4px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: transparent;
     width: 264px;
     min-height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     padding: 8px 16px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-right: 24px;
 }
 .input-foot:focus {
     border-color: #31d0aa;
@@ -418,7 +422,7 @@ textarea {
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
 }
 .butt-sub {
     display: flex;
@@ -428,6 +432,10 @@ textarea {
     padding: 8px 24px;
     min-width: 165px;
     height: 40px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     border: 0;
     background-color: #4d5ae5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -437,7 +445,7 @@ textarea {
 .butt-sub:focus {
     background-color: #31d0aa;
 }
-.par-butt {
+.icon-sub {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -445,7 +453,7 @@ textarea {
     letter-spacing: 0.04em;
     color: #fff;
     text-align: center;
-    margin-right: 16px;
+    margin-left: 16px;
 }
 /* #endregion footer */
 
