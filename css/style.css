@@ -404,30 +404,20 @@ button {
 .div-input-foot {
     margin-right: 24px;
 }
-.form-foot {
-    display: block;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px; 
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #fff;
-    margin-bottom: 16px;
-    background-color: #2e2f42;
-}
+
 .input-foot {
     background-color: #2e2f42;
     border: 1px solid #fff;
     outline: none;
     border-radius: 4px;
-    width: 100%;
-    height: 40px;
+    width: 264px;
+    min-height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     padding: 8px 16px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-foot:focus {
-    border-color: #4d5ae5;
+    border-color: #31d0aa;
 }
 .input-foot::placeholder {
     font-family: "Roboto", sans-serif;
@@ -437,31 +427,22 @@ button {
     letter-spacing: 0.04em;
     color: #fff;
 }
-.div-button-foot {
-    /* display: flex;
-   justify-content: end;
-   align-items: end; */
-
-}
 .butt-sub {
     display: flex;
-        align-items: center;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    align-items: center;
+    justify-content: center;
     border-radius: 4px;
     padding: 8px 24px;
     min-width: 165px;
     height: 40px;
     border: 0;
     background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: none;
-
-
-
-
 }
-.div-button-foot:hover, 
-.div-button-foot:focus {
-    background-color: #404BBF;
+.butt-sub:hover, 
+.butt-sub:focus {
+    background-color: #31d0aa;
 }
 .par-butt {
     font-family: "Roboto", sans-serif;
@@ -470,6 +451,8 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    text-align: center;
+    margin-right: 16px;
 }
 /* #endregion footer */
 
