@@ -388,13 +388,8 @@ button {
 .foo-ter .icon-team:hover, .foo-ter .icon-team:focus {
     background-color: #31d0aa;
 }
-.list-footer-two {
-    margin-right: 80px;
-}
-.form-foot-sub {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.last-div-foot {
+    margin-left: auto;
 }
 .div-foot {
     display: flex;
@@ -404,7 +399,11 @@ button {
 .div-input-foot {
     margin-right: 24px;
 }
-
+.form-foot-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .input-foot {
     background-color: #2e2f42;
     border: 1px solid #fff;
