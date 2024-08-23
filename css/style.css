@@ -26,11 +26,12 @@ button {
     cursor: pointer;
     font-family: inherit;
     line-height: inherit;
+    color: currentColor;
 }
 input,
 textarea {
-  font-family: inherit;
-  line-height: inherit;
+    font-family: inherit;
+    line-height: inherit;
 }
 .visually-hidden {
     position: absolute;
@@ -68,6 +69,23 @@ textarea {
     padding: 24px 0;
     margin-right: 76px;
 }
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.logo .partlogo {
+    color: #2e2f42;
+}
+.list-header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 .link-header.forunderline {
     position: relative;
     color: #404bbf;
@@ -82,28 +100,6 @@ textarea {
     border-radius: 2px;
     background-color: #404bbf;
 }
-.list-header {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
-.address-container {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color:#4d5ae5;
-}
-.logo .partlogo {
-    color: #2e2f42;
-}
 .link-header {
     display: block;
     padding: 24px 0;
@@ -116,6 +112,11 @@ textarea {
 .link-header:hover,
 .link-header:focus {
     color: #404bbf;
+}
+.address-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 .infoadderess {
     margin-left: auto;
@@ -168,7 +169,6 @@ textarea {
     height: 56px;
     border: 0;
     border-radius: 4px;
-
     background-color: #4d5ae5;
     font-weight: 500;
     line-height: 1.5;
@@ -208,18 +208,6 @@ textarea {
 .strategy-container .third-h {
     margin-bottom: 8px;
 }
-.card-container {
-    margin: 32px 16px;
-}
-.second-h {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    text-transform: capitalize;
-}
 .third-h {
     font-weight: 500;
     font-size: 20px;
@@ -243,20 +231,29 @@ textarea {
     text-align: center;
     margin-bottom: 72px;
 }
+.second-h {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
 .list-team {
     display: flex;
     gap: 24px;
     align-items: center;
 }
-.card-team {
-    padding: 32px 0;
-}
 .li-items-team {
     width: calc((100% - 24px * 3)/ 4);
     text-align: center;
     border-radius: 0 0 4px 4px;
-    background: #fff;
+    background-color: #fff;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.card-team {
+    padding: 32px 0;
 }
 .team-container .third-h {
     margin-bottom: 8px;
@@ -300,7 +297,6 @@ textarea {
 }
 .portfolio-container .second-h {
     margin-bottom: 72px;
-    text-align: center;
 }
 .list-portfolio {
     display: flex;
@@ -316,7 +312,6 @@ textarea {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .img-part {
-    display: block;
     position: relative;
     overflow: hidden;
 }
@@ -332,9 +327,10 @@ textarea {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    background: #4d5ae5;
+    background-color: #4d5ae5;
 }
-.li-items-portfolio:hover .overcase, .li-items-portfolio:focus .overcase {
+.li-items-portfolio:hover .overcase, 
+.li-items-portfolio:focus .overcase {
     transform: translateY(0);
 }
 .portfolio-card {
@@ -381,7 +377,6 @@ textarea {
 }
 .last-p {
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
     color: #fff;
     margin-bottom: 16px;
@@ -447,13 +442,6 @@ textarea {
     background-color: #31d0aa;
 }
 .icon-sub {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-    text-align: center;
     margin-left: 16px;
 }
 /* #endregion footer */
@@ -549,7 +537,6 @@ textarea {
 }
 .div-input {
     position: relative;
-    margin-bottom: 8px;
 }
 .form-input {
     background-color: transparent;
